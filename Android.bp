@@ -30,6 +30,7 @@ license {
 }
 
 java_library_host {
+    java_version: "1.8",
     name: "jsilver",
     srcs: ["src/**/*.java"],
     libs: ["guava"],
