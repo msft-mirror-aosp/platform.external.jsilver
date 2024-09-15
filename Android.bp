@@ -38,6 +38,7 @@ java_library_host {
     errorprone: {
         javacflags: [
             "-Xep:PreconditionsInvalidPlaceholder:WARN",
+            "-Xep:LenientFormatStringValidation:WARN",
         ],
     },
 }
